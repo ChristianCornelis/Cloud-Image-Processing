@@ -2,10 +2,15 @@
 ## Christian Cornelis (0939357), Mohammadamin Sheikhtaheri (0930853), Samuel Tracz ()
 
 ## Requirements
+
 ### Azure Computer Vision
 - sus
+
 ### AWS Rekognition
-- snance
+- You must have an AWS account
+- You must set the correct credentials in the `.aws` folder
+- You must have boto3 installed using `pip install boto3`
+
 ### Google Cloud Platform
 - You must have a valid project connected to a billing account.
 - You must have the service account key for the above project set in your environment variable `GOOGLE_APPLICATION_CREDENTIALS`
