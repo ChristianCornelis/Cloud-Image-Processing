@@ -4,7 +4,7 @@ import io
 
 def call_rekognition():
 
-    client = boto3.client('rekognition')
+    client = boto3.client('rekognition', 'us-east-1')
     file = open('aws_response.txt', "w")
 
     directory = './resources/'
