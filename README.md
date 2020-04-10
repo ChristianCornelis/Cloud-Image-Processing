@@ -6,7 +6,7 @@
 ### Azure Computer Vision
 - sus
 
-### AWS Rekognition
+### Amazon Rekognition
 - You must have an AWS account
 - You must set the correct credentials in the `.aws` folder
 - You must have boto3 installed using `pip install boto3`
