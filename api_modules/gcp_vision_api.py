@@ -6,6 +6,9 @@ from google.cloud import vision
 from google.cloud.vision import types
 
 def call_vision():
+    '''
+    Calls on the Google Vision API, using all files within the resources folder as paramaters.
+    '''
     # Instantiates a client
     client = vision.ImageAnnotatorClient()
 
