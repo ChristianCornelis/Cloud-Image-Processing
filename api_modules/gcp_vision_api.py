@@ -13,7 +13,7 @@ def call_vision():
     client = vision.ImageAnnotatorClient()
 
     directory = './resources/'
-
+    file = open('gcp_response.txt', "w")
     # Iterate over each image in the resources directory, outputting labels for each.
     for filename in os.listdir(directory):
         with io.open(os.path.join('resources', filename), 'rb') as image_file:
@@ -24,7 +24,9 @@ def call_vision():
             # Performs label detection on the image file
             response = client.label_detection(image=image)
             labels = response.label_annotations
-
-            print(filename + ' Labels:')
+            file.write('Detected labels for ' + filename + '\n') 
+            print('Detected labels for ' + filename)
             for label in labels:
+                file.write('\t' + label.description + ' (' + ("%.2f" % (label.score * 100)) +'% confidence)\n')
                 print('\t' + label.description + ' (' + ("%.2f" % (label.score * 100)) +'% confidence)')
+    file.close()
