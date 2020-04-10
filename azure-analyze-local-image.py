@@ -30,6 +30,7 @@ for filename in os.listdir(directory):
 
     image_path = filename
     # Read the image into a byte array
+    print(filename)
     image_data = open(os.path.join('resources', filename), 'rb').read()
     headers = {'Ocp-Apim-Subscription-Key': subscription_key,
             'Content-Type': 'application/octet-stream'}
@@ -48,7 +49,7 @@ for filename in os.listdir(directory):
     analysis2 = response2.json()
     for label in analysis2['tags']:
         print('\t' + label['name'] + ' (' + ("%.2f" % (label['confidence'] * 100)) +'% confidence)')
-        print('\t' + str(float(label['confidence']) * 100) + " % confidence")
+    print("")
     #print(analysis2)
     #image_caption = analysis["description"]["captions"][0]["text"].capitalize()
 
