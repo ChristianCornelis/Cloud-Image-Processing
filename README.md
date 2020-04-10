@@ -1,7 +1,11 @@
 # CIS 4010 Final Project
-## Christian Cornelis (0939357), Mohammadamin Sheikhtaheri (), Samuel Tracz ()
+## Christian Cornelis (0939357), Mohammadamin Sheikhtaheri (0930853), Samuel Tracz ()
 
 ## Requirements
+### Azure Computer Vision
+- sus
+### AWS Rekognition
+- snance
 ### Google Cloud Platform
 - You must have a valid project connected to a billing account.
 - You must have the service account key for the above project set in your environment variable `GOOGLE_APPLICATION_CREDENTIALS`
