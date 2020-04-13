@@ -2,6 +2,7 @@ import io
 import os
 
 # Imports the Google Cloud client library
+# Ref: https://cloud.google.com/vision/docs/quickstart-client-libraries
 from google.cloud import vision
 from google.cloud.vision import types
 
