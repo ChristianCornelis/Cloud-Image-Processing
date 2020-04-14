@@ -32,3 +32,12 @@ Our presentation slides can be found in `Team 3 Presentation.pdf`, and the prese
     - This will output all results to the terminal as well as to the files `gcp_response.text`, and `aws_response.txt` for Google Vision and AWS Rekognition, respectively.
 - Scripts for the 3 services used can be found in the `api_modules`.
 
+## References
+ - These are the references to the pictures in our resources dataset that were not used and referenced in the report
+
+[gryphon_statue_group_picture] Gregory, Tanya (2017) [Online Image] Facebook. Retrieved from
+    https://scontent-yyz1-1.xx.fbcdn.net/v/t35.18174-12/15182603_374191296260648_2147300075_o.jpg?_nc_cat=109&_nc_sid=b96e70&_nc_oc=AQnBENun0pIG3G0_ElEKWFni8BubfdCgY2Fy6nCI2ZEcBM7DkMP32d9ePH5XVYLMVxs&_nc_ht=scontent-yyz1-1.xx&oh=60b768e22b444d76b9bfb6e7a0159bf3&oe=5E95EB1D
+
+[camera, jellyfish] Hendrycks. et al. (2020) [Online Image]. hendrycks/natural-adv-examples. Retrieved from https://github.com/hendrycks/natural-adv-examples 
+
+[cartoon] (2020) [Online Image] Retrieved from https://cdn.discordapp.com/attachments/663818091700158486/698236366923890808/ale.jpg
