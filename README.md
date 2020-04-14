@@ -1,9 +1,10 @@
 # CIS 4010 Final Project
 ## Christian Cornelis (0939357), Mohammadamin Sheikhtaheri (0930853), Samuel Tracz (0927451)
 This repo contains the source code used to connect to the Azure Computer Vision, AWS Rekognition, and Google Vision APIs via their Python SDKs,
-as well as the report of our findings. Please find out report pdf at the root level of this repo, as well as a zipped folder containing all LaTeX files used to create it.
+as well as the report of our findings. Please find out report pdf, `Team 3 Report.pdf` at the root level of this repo, as well as a zipped folder containing all LaTeX files used to create it in `team3_report.zip`.
+Our presentation slides can be found in `Team 3 Presentation.pdf`, and the presentation video can be found [here](https://youtu.be/mYXJ3E2aEJA)
 
-## Requirements
+## Requirements to run scripts
 
 ### Azure Computer Vision
 - You must have an Azure account
@@ -12,7 +13,7 @@ as well as the report of our findings. Please find out report pdf at the root le
     requests
     matplotlib
     pillow
-- go to (https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts/python-disk) for setup steps and code tutorial### Azure Computer Vision
+- You can go [here](https://docs.microsoft.com/en-us/azure/cognitive-services/computer-vision/quickstarts/python-disk) for setup steps and code tutorial
 
 ### Amazon Rekognition
 - You must have an AWS account
@@ -29,4 +30,5 @@ as well as the report of our findings. Please find out report pdf at the root le
 ## Running the scripts
 - You can run a driver script that will run all three API scripts for each of the images in the `resources` folder with `python driver.py`
     - This will output all results to the terminal as well as to the files `gcp_response.text`, and `aws_response.txt` for Google Vision and AWS Rekognition, respectively.
+- Scripts for the 3 services used can be found in the `api_modules`.
 
