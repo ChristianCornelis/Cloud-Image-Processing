@@ -41,3 +41,6 @@ Our presentation slides can be found in `Team 3 Presentation.pdf`, and the prese
 [camera, jellyfish] Hendrycks. et al. (2020) [Online Image]. hendrycks/natural-adv-examples. Retrieved from https://github.com/hendrycks/natural-adv-examples 
 
 [cartoon] (2020) [Online Image] Retrieved from https://cdn.discordapp.com/attachments/663818091700158486/698236366923890808/ale.jpg
+
+[shiny legs] Lang, C. (2016, October 26). The Internet Is Divided By This Photo of Shiny Legs. Retrieved from
+    https://time.com/4546630/this-photo-of-someones-shiny-legs-is-dividing-the-internet/ 
